@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+<Button
+    android:id="@+id/btn_first"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/btn_height"
+    android:text="@string/btn_first_string"/>
+
+<Button
+    android:id="@+id/btn_second"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/btn_height"
+    android:text="@string/btn_second_string"/>
+</LinearLayout>
